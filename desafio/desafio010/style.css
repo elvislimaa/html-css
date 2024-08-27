@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-color: rgb(132, 225, 173);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0px;
+    font-size: 20px;
+}
+
+h1 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#curiosidade {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+header {
+    background-image: linear-gradient(to bottom, #3DDC84, #063D1E 60%);
+    color: white;
+    padding: 20px;
+    margin: 10;
+}
+
+nav {
+    background-color: #063D1E;
+    color: white;
+    text-align: left;
+    padding: 10px;
+}
+
+main {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#mascote {
+    font-family: 'idroid';
+    color: #063D1E;
+    line-height: 1.5em;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+h2 {
+    background-color: #83E1AD;
+    font-family: 'idroid';
+    color: #063D1E;
+    background-image: linear-gradient(to right, #83E1AD 30%, white);
+    text-align: left;
+}
+
+#primeira {
+    font-family: 'idroid';
+    color: #063D1E;
+    text-align: center;
+}
+
+div {
+    background-color: #063D1E;
+}
+
+h3#primeiro {
+    background-color: #3DDC84;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: left;
+    box-shadow: 1px 1px 1px;
+    border-radius: 30px;
+}
+
+
+
+
+.dividir {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: underline;
+    column-count: 2;
+            column-gap: 20px; 
+        }
+    
+
+        
+
+        li {
+            break-inside: avoid; 
+            margin-bottom: 10px; 
+        }
+
+.caixa {
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+#mouse {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+footer {
+    background-color: #063D1E;
+    color: white;
+    margin: 0;
+}
+

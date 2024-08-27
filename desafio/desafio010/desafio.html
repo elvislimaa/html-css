@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <style>
+        @charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-color: rgb(132, 225, 173);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0px;
+    font-size: 20px;
+}
+
+h1 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#curiosidade {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+header {
+    background-image: linear-gradient(to bottom, #3DDC84, #063D1E 60%);
+    color: white;
+    padding: 20px;
+    margin: 10;
+}
+
+nav {
+    background-color: #063D1E;
+    color: white;
+    text-align: left;
+    padding: 10px;
+}
+
+main {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#mascote {
+    font-family: 'idroid';
+    color: #063D1E;
+    line-height: 1.5em;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+h2 {
+    background-color: #83E1AD;
+    font-family: 'idroid';
+    color: #063D1E;
+    background-image: linear-gradient(to right, #83E1AD 30%, white);
+    text-align: left;
+}
+
+#primeira {
+    font-family: 'idroid';
+    color: #063D1E;
+    text-align: center;
+}
+
+div {
+    background-color: #063D1E;
+}
+
+h3#primeiro {
+    background-color: #3DDC84;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: left;
+    box-shadow: 1px 1px 1px;
+    border-radius: 30px;
+}
+
+
+
+
+.dividir {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: underline;
+    column-count: 2;
+            column-gap: 20px; 
+        }
+    
+
+        
+
+        li {
+            break-inside: avoid; 
+            margin-bottom: 10px; 
+        }
+
+.caixa {
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+#mouse {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+footer {
+    background-color: #063D1E;
+    color: white;
+    margin: 0;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Curiosidades de Tecnologia</h1>
+        <p id="curiosidade">Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar.</p>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Noticias</a>
+            <a href="#">Curiosidades</a>
+            <a href="#">Fale Conosco</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <aside id="mascote">
+                <h1>História do Mascote do Android</h1>
+                <p>Provavelmente você sabe que o sistema operacional Android, mantido pelo Google é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.
+                </p>
+            </aside>
+        </article>
+        <article>
+            <aside id="primeira">
+                <h2>A primeira versão</h2>
+                <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado Dan Morrill. Ele conta que abriu o Inkscape (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p>
+                <img src="imagens/dan-droids.png" alt="dan droids">
+                <p>Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os Dandroids.</p>
+                <h2>Surge um novo Mascote</h2>
+                <p>A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora Russa Irina Blok, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.</p>
+                <img src="imagens/irina-blok.jpg" alt="irina">
+                <p>A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o Bugdroid, o novo mascote do Android.</p>
+                <img src="imagens/bugdroid.png" alt="bug droid">
+                <p>A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do Google e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetivo.
+                </p>
+                <div><iframe width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M?si=Hcm_29ir2P1d-Mr1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+            </div class="caixa">
+                <h3 id="primeiro">Quer aprender mais?</h3>
+                <p>Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.</p>
+                <ul class="dividir">
+                    <li>1.5 - Cupcake</li>              
+                    <li>1.6 - Donut</li>                
+                    <li>3.0 - Eclair</li>               
+                    <li>2.2 - Froyo</li>                
+                    <li>2.3 - Gingerbread</li>            
+                    <li>3.0 - Honeycomb</li>            
+                    <li>4.0 - Ice Cream Sandwich</li>   
+                    <li>4.1 - Jelly Bean</li>
+                    <li>4.4 - KitKat</li>
+                    <li>5.0 - Lolipop</li>
+                    <li>6.0 - Marshmallow</li>
+                    <li>7.0 - Nougat</li> 
+                    <li>8.0 - Oreo</li>
+                    <li>9.0 - Pie</li>
+                </ul>
+                <p>Infelizmente, o Android Q não existiu, pois o Google resolveu pôr fim a essa divertida prática e começou a usar numerações, o que deu origem ao Android 10.</p>
+
+                <h3 id="mouse">Então é isso! Espero que você tenha gostado do nosso artigo com essa curiosidade sobre o sistema Android e seu simpático mascote.</h3>
+            </div>
+            </aside>
+        </article>
+    </main>
+    <footer>
+        Site criado por Elvis Lima com o CursoemVideo.
+    </footer>
+    
+</body>
+</html>
